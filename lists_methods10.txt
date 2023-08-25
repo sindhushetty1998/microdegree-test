@@ -1,0 +1,57 @@
+heroes = ["Rajkumar", "ShankarNag", "Vishnu", "Ambi", "Darshan", "Punith"]
+
+# add , remove, check for existence
+
+print(heroes)
+
+# add at the end
+heroes.append("AnanthNag")
+
+# insert at a certain position - other values gets pushed by 1 index
+heroes.insert(2, "Uppi")
+
+# remove elements
+heroes.remove("Punith")
+
+print(heroes)
+
+# clear - give an empty list
+heroes.clear()
+
+# pop an item out of the list - last element
+heroes.pop()
+
+# check if element is in the list - returns the index if exists else throws error
+print(heroes.index("Ambi"))
+
+# not in the list
+# print(heroes.index("Sadhu"))
+
+# also can check using in operator - avoids error
+print("Sadhu" in heroes)
+
+# count the number of occurrences
+print(heroes.count(("Ambi")))
+
+# sort
+heroes.sort()
+
+numbers = [3, 44, 12, 98, 25, 34]
+numbers.sort()
+print(numbers)
+
+# reverse
+numbers.reverse()
+print(numbers)
+
+heroes = ["Rajkumar", "ShankarNag", "Vishnu", "Ambi", "Darshan", "Punith"]
+numbers = [3, 44, 12, 98, 25, 34]
+
+# copy function
+numbers2 = numbers.copy()
+print(numbers2)
+
+# extend
+heroes.extend(numbers)
+print(heroes)
+

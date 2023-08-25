@@ -1,0 +1,47 @@
+cricketers = ["Sachin", "Dhoni", "Virat"]
+
+# one value vs multiple value
+# access these values
+
+# what we can put inside a List - strings,number,boolean
+
+cricketers2 = ["Sachin", "Dhoni", "Virat", 1, True]
+
+# how to access individual elements of this list
+
+print(cricketers2)
+
+# lets say access specific value - index
+cricketers3 = ["Sachin", "Dhoni", "Virat"]
+                # 0       1       2
+print(cricketers3[0])
+
+# we can also access back of the list
+cricketers4 = ["Sachin", "Dhoni", "Virat"]
+                # -3         -2      -1
+
+# keep in mind index position 0 vs -1 from back
+
+print(cricketers4[-3])
+
+# last 2 elements in the list
+
+print(cricketers4[1:])
+
+# range - add 3 more to list
+cricketers5 = ["Sachin", "Dhoni", "Virat", "Dravid", "Amarnath", "Sehwag"]
+
+print(cricketers5[1:4])
+
+# beginning to end of list
+print(cricketers5[:])
+
+# original list is not modified
+print(cricketers5[1:4])
+print(cricketers5)
+
+# Modify a list
+cricketers6 = ["Sachin", "Dhoni", "Virat", "Dravid", "Amarnath", "Sehwag"]
+
+cricketers6[2] = "Rohit"
+print(cricketers6)

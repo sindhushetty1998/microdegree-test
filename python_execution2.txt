@@ -1,0 +1,15 @@
+print("----")
+print("|   |")
+print("|   |")
+print("----")
+
+#run
+#python interpreter - execute the progrm line by line
+
+
+# move
+print("----")
+print("----")
+print("|   |")
+print("|   |")
+

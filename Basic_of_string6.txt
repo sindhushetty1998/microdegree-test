@@ -1,0 +1,81 @@
+
+# strings are plain text
+print("MicroDegree")
+
+# new line in strings
+print("Micro\nDegree")
+
+# can also store it as a variable
+website = "MicroDegree"
+
+print(website + "is where i learn technology")
+
+tutorial = "MicroDegree course in Kannada"
+
+tutorial = "MicroDegree's course in Kannada"
+
+tutorial = 'MicroDegrees course in "Kannada" '
+
+tutorial = 'MicroDegrees course multi line ' \
+           ' in "Kannada" '
+
+print(tutorial)
+
+my_email = ''' Hello sir
+
+I want to apply for this course
+Thank you
+'''
+
+print(my_email)
+
+# access by index - python - internally indexes
+tutorial = "MicroDegree course in Kannada"
+
+print(tutorial[5])
+
+# negative index
+tutorial = "MicroDegree course in Kannada"
+# -2-1
+print(tutorial[-4])
+
+# 0 vs 1
+
+
+tutorial = "MicroDegree course in Kannada"
+
+# character vs string
+print(tutorial[0:3])
+
+# start index
+print(tutorial[0:])
+
+# end index
+print(tutorial[1:])
+
+# python interpreter assumes - 0 as the start index
+print(tutorial[:5])
+
+# start index is 0  and length as end index
+print(tutorial[:])
+
+tutorial_copy = tutorial[:]
+print(tutorial_copy)
+
+# Exercise
+
+state = "Karnataka"
+print(state[1:-1])
+
+# special type of string concatenation - formatted string
+first = 'MicroDegree'
+
+print(f"Hello There {first} is a tutorial site")
+
+formattedString = f"Hello There {first} is a tutorial site"
+print("formayyed string here "+formattedString)
+
+# dynamically access values in string
+use_now = f'Hello ${first} how are you'
+
+

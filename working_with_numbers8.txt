@@ -1,0 +1,53 @@
+print(14)
+print(12.3456)
+print(-12.3456)
+
+# also assign to a variable
+my_account_balance = 2145.23
+
+print(12 + 16)  # addition
+
+print(25 / 3)  # division - return floating point
+
+print(25 // 3)  # division - return integer
+
+print(15 % 5)  # remainder of division - modulus operator - 15 mod 3
+
+print(2 ** 3)  # 2 to the power 3
+
+
+# Operator precedence - order of operation
+
+total = 12 + 25 * 2
+print(total)
+
+# order ->  exponential  - multiplication or divi - add or subtract
+# parenthesis has higher
+value = (12 - 2) * (25 + 4)
+
+print(value)
+
+# convert to strings
+print(str(value))  # - helps in printing numbers with string
+
+# try increment  a number -
+x = 1
+x += 4
+
+# Functions in Maths - mathemeatical operations
+my_account_balance = 2145.23
+
+print(round(my_account_balance))  # rounding off decimal
+
+my_account_balance = -2145.23
+print(abs(my_account_balance))  # removes negative - absolute value
+
+print(pow(5, 2))  # 5 to the power of 2
+print(max(123, 324))  # max of 2 nums
+
+# Math functions by importing
+import math
+
+print(math.ceil(my_account_balance))  # round the num
+print(math.floor(my_account_balance))  # chop off the decimal point
+print(math.sqrt(9)) # square root of 9

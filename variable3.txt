@@ -1,0 +1,13 @@
+# assignment operator
+# name - label
+age = 45
+age = 25
+print("age")
+
+account_balance = 324.50
+
+name = "MicroDegree"
+email = "hello@microdegree.work"
+
+is_agreed_terms = True  # terms agreed or not - yes or no type
+# python - case sensitive

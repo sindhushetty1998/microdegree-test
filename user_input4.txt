@@ -1,0 +1,12 @@
+mobile_num = input("Please enter your mobile number? ")
+
+print("Mobile Number :  " + mobile_num)
+
+
+# Exercise for input
+
+name=input("Your Name please : ")
+location=input("your location")
+college=input("Please enter your college")
+
+print(name+"from "+location+"is studying at " + college)

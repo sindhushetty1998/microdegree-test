@@ -1,0 +1,71 @@
+is_pass=True
+
+if is_pass:
+    print("Congrats you are passed")
+
+else:
+    print("Sorry you have failed")
+
+
+
+
+
+is_pass=True
+
+if is_pass:
+    print("Congrats you are passed")
+    print("Please collect your marks card")
+
+else:
+    print("Sorry you have failed")
+    print("Please write the exams again")
+
+#generic message - shift+tab
+print("Thanks for Checking your result")
+
+
+
+
+
+mobile_price=9500
+
+is_google_pay=True
+
+if is_google_pay:
+    discount = 0.2 * mobile_price
+
+else:
+    discount=0.1 * mobile_price
+
+print(f"Discount Amount: {discount}")
+
+
+
+
+is_pass=False
+
+#next lets define a condition
+#add a colon
+#pycharm automatically indents
+
+if is_pass:
+    #condition is true then execute this statement
+    print("Congrats you are passed")
+
+
+
+
+is_distinction=True
+is_pass=True
+
+if is_distinction:
+    print("Awesome! you have earned Distinction")
+
+elif is_pass:
+    print("Congrats you are passed")
+
+else:
+    print("Sorry you have failed")
+
+#generic message - shift+tab
+print("Thanks for Checking your result")

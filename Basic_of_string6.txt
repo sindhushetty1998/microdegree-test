@@ -1,5 +1,6 @@
 
 # strings are plain text
+#for understanding
 print("MicroDegree")
 
 # new line in strings
